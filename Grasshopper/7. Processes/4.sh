@@ -1,0 +1,3 @@
+echo "Every process has a process of parent. So every process has PPID besides PID. Because every process has been  derived from another process. There are two functions for processes. fork() and execve(). Fork clones the process that function has been called. execve() function overrides the content of the function. For instance: calling the ls in bash creates a new bash process but subsequently the execve("ls") function is called. So the content of the process is called.
+
+init is the greatest father of all processes that cannot be terminated until the system shuts down. It does have a parent process or something like that. It is initialized by Kernel at the beginning of system."
