@@ -1,0 +1,18 @@
+echo "SMB (Server Message Block)"
+echo "In the early days of computing, it became necessary for Windows machines to share files with Linux machines; thus, the Server Message Block (SMB) protocol was born."
+echo "Using CIFS (Common Internet File System)"
+echo "# Create a network share with Samba"
+echo "## Install Lambda"
+echo "sudo apt update && sudo apt install sambda"
+echo
+echo "### Setting up smb.conf"
+echo "The configuration of Samda is found at /etc/samba/smb.conf"
+echo "This is the files that indicates what directories will be shared"
+echo "#### Set up a pasword for Samba"
+echo "sudo smbpasswd -a [username]"
+echo "##### Create a shared directory"
+echo "kmdir /my/directory/to/share"
+echo "Restarting the Samba Service"
+echo "sudo service smbd restart"
+echo "My notes: I dont guess that I will use sambda for my entire life so I am not concerning about I missing much"
+echo
