@@ -1,0 +1,6 @@
+echo "Distance Vector Protocols"
+echo "Distance vector protocols determine the path to other networks using the hop count a packet takes across the network. "
+echo "For example, if network A is 3 hops away and network B is next to network A, then we assume network B must be 4 hops away. In distance vector protocols, the next route would be the one with the least number of hops."
+echo "One of the common distance vector protocols is RIP (Routing Information Protocol)."
+echo "It broadcasts the routing table to every router in the network every 30 seconds."
+echo "For a large network, this can consume significant resources. Because of this, RIP limits its hop count to 15."
