@@ -1,0 +1,6 @@
+echo "Overview of the Kernel"
+echo "Cor of the OS"
+echo "In Linux operating system there is three different levels of abstracting layers. https://www.instagram.com/reel/DOvJLezjrZc"
+echo "Hardware"
+echo "Kernel"
+echo "User space"
