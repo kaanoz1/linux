@@ -1,0 +1,12 @@
+echo "Boot Process"
+echo "Linux boot process can be broken down into 4 simple stages:"
+echo "1. BIOS"
+echo "2. Bootloader"
+echo "3. Kernel"
+echo "4. Init"
+echo
+echo "BIOS stands for Basic Input Output System. When BIOS is launched it initializes the hardware and makes sure with a Power-on Self-Test (POST) that all the hardware is good to go. Them ina job of the BIOS is to load the bootloader."
+echo "So checks all hardware are good and initialize the bootloader"
+echo "BIOS transfers the task to bootloader. The bootloader loads the kernel into memory and then starts the kernel with a set of kernel parameters. (Like env variables, some scripts and commands). Linux universal known bootloader is GRUB."
+echo "When the kernel is loaded, it immediately initializes devices and memory. The main job of the kernel is to load the init process."
+echo "Init runs does all the stuff."

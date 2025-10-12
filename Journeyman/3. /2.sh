@@ -1,0 +1,21 @@
+echo "Boot process: BIOS"
+echo "The BIOS's main goal is to find the system bootloader."
+echo "So, once the BIOS boots up the hard drive, it searches for the boot block to figure out how to boot up the system. "
+echo "Depending on how you partition your disk, it will look to the Master Boot Record (MBR) or GPT"
+echo "The MBR is located in the first sector of the hard drive, the first 512 bytes. The MBR contains the code to load another program somewhere on the disk; this program in turn actually loads up our bootloader."
+echo
+echo "UEFI (Unified Extensible Firmware Interface), another way to boot up your system."
+echo "UEFI was designed to be the successor to BIOS; most hardware out there today comes with UEFI firmware built in."
+echo
+echo "You don't necessarily need EFI if you are booting a GPT disk."
+echo "UEFI stores all the information about startup in an .efi file. This file is stored on a special partition called the EFI System Partition on the hardware"
+echo "Inside this partition, it will contain the bootloader. UEFI comes with many improvements from the traditional BIOS firmware. However, since we are using Linux, the majority of us are using BIOS. So all of these lessons will be going along with that premise."
+echo "So the first sector of ram is allocated which is 512B. "
+echo "If it is MBR then its storage should be 512B. BIOS loads it into RAM and executes"
+echo "If it is GPT then bootloader load it to RAM and RUN it."
+echo "UEFI is new modern BIOS."
+echo "Faster than BIOS, has more storage capacity and supports GPT which is a modern tool also."
+echo "UEFI runs on file has extension .efi. This files are stored in a part of memory called EFI System Partition (ESP)"
+echo "This files includes bootloader. So its optimized."
+echo "So by this, UEFI stores them in special memory address while BIOS store them in motherboard or some hardware"
+echo

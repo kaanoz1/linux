@@ -1,0 +1,6 @@
+echo "4. Boot Process: Kernel"
+echo "The kernel manages our system's hardware; however, not all drivers are available to the kernel during boot-up."
+echo "So we depend on a temporary root filesystem that contains just the essential modules the kernel needs to access the rest of the hardware."
+echo "Older versions of linux this job was given to the initrd (initial ram disk)"
+echo "These days we have something called initramfs;"
+echo "This is a temporary root filesystem that is built into the kernel itself to load all the necessary drivers for the real root filesystem, so there is no more locating hte initrd file."
